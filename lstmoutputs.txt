@@ -1,0 +1,81 @@
+DAYAHEAD 
+
+=== LSTM Performance ===
+Log scale -> RMSE: 0.1524  MAE: 0.1011  R²: 0.152
+Original  -> RMSE: 1,615,468,613  MAE: 988,096,853  MAPE: 9.87%
+
+
+DAYAHEAD VIX
+
+=== LSTM Performance ===
+Log scale -> RMSE: 0.1596  MAE: 0.1070  R²: 0.070
+Original  -> RMSE: 1,683,602,652  MAE: 1,039,191,066  MAPE: 10.24%
+
+
+5 DAYS
+
+=== 5-Day LSTM Performance ===
+RMSE (log): 0.127
+MAE  (log): 0.097
+R²   (log): -0.22630709255041248
+
+
+5 DAYS VIX
+
+=== 5-Day LSTM Performance ===
+RMSE (log): 0.118
+MAE  (log): 0.091
+R²   (log): -0.06580990220939009
+
+
+21 days 
+
+=== 21-Day LSTM Performance ===
+RMSE (log): 0.131
+MAE  (log): 0.110
+R²   (log): -1.4696160400225944
+
+
+21 days VIX
+
+=== 21-Day LSTM Performance ===
+RMSE (log): 0.092
+MAE  (log): 0.071
+R²   (log): -0.21107684719657072
+
+
+=============== POST COVID ================
+
+DAYAHEAD
+=== LSTM Performance ===
+Log scale -> RMSE: 0.1573  MAE: 0.1049  R²: 0.097
+Original  -> RMSE: 1,653,223,471  MAE: 1,021,837,785  MAPE: 10.28%
+
+DAYAHEAD VIX
+=== LSTM Performance ===
+Log scale -> RMSE: 0.1609  MAE: 0.1080  R²: 0.055
+Original  -> RMSE: 1,691,038,525  MAE: 1,046,191,334  MAPE: 10.28%
+
+5 DAYS
+=== 5-Day LSTM Performance ===
+RMSE (log): 0.116
+MAE  (log): 0.088
+R²   (log): -0.022585863819403418
+
+5 DAYS VIX
+=== 5-Day LSTM Performance ===
+RMSE (log): 0.115
+MAE  (log): 0.087
+R²   (log): -0.005776072727248227
+
+21 DAYS 
+=== 21-Day LSTM Performance ===
+RMSE (log): 0.083
+MAE  (log): 0.065
+R²   (log): 0.0009108629812831781
+
+21 DAYS VIX
+=== 21-Day LSTM Performance ===
+RMSE (log): 0.108
+MAE  (log): 0.084
+R²   (log): -0.6752497707786862

@@ -62,6 +62,8 @@ def build_features_nextday(df: pd.DataFrame) -> pd.DataFrame:
     df["vix_change"] = df["vix_close"] - df["vix_lag1"]
     df["vix_5d_ma"]  = df["vix_close"].rolling(window=5).mean()
 
+    df.head()
+
     # Target
     if "target_volume" not in df.columns:
         raise ValueError("`target_volume` not found in dataframe for next-day task.")
